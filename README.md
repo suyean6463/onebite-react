@@ -6,3 +6,5 @@
 ### ➋ 자바스크립트 심화
 - Truthy와 Falsy , 단락 평가, 구조분해할당, Spread 연산자와 Rest 매개변수
 → <a href="https://github.com/suyean6463/onebite-react/blob/main/section02_1.md">section02_1</a>
+- 원시타입과 객체타입, 배열과 객체 순회, 배열 메서드
+→ <a href="https://github.com/suyean6463/onebite-react/blob/main/section02_2.md">section02_2</a>
