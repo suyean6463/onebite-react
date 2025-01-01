@@ -8,3 +8,5 @@
 → <a href="https://github.com/suyean6463/onebite-react/blob/main/section02_1.md">section02_1</a>
 - 원시타입과 객체타입, 배열과 객체 순회, 배열 메서드
 → <a href="https://github.com/suyean6463/onebite-react/blob/main/section02_2.md">section02_2</a>
+- 동기와 비동기
+→ <a href="https://github.com/suyean6463/onebite-react/blob/main/section02_3.md">section02_3</a>
