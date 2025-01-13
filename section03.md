@@ -157,3 +157,27 @@ function Counter(){
 
 export default Counter;
 ```
+
+## useRef
+> 컴포넌트 내부에 새로운 Refrence 객체를 생성하는 기능
+> 
+`const refObject = useRef()`
+- refObject는 컴포넌트 내부의 변수로써 일반적인 값 저장 가능
+- `console.log(refObj)`의 결과로 `{current : undefined}` (초기값이 없을 경우)
+  - 레퍼런스 객체란 current란 프로퍼티에 값을 담아두는 객체
+  - 객체 표기법 사용 가능 `refObj.current`
+- 컴포넌트를 리렌더링 하지 않기 때문에 컴포넌트 내부에서 렌더링에 영향을 주지 않을 때 주로 사용
+
+### useRef 와 useState
+- useRef는 Refrence 객체를 생성, useState는 State를 생성
+- 공통점 : 컴포넌트 내부의 변수로 활용 가능
+- 차이점 : useRef는 값이 변해도 리렌더링을 유발하지 X , useState는 값이 변하면 리렌더링을 유발
+
+## React Hooks
+> 클래스 컴포넌트의 기능을 함수 컴포넌트에서도 이용할 수 있도록 해주는 메서드
+- useRef와 useState 모두 react hooks
+  - react hooks는 이름 앞에 동일한 접두사 use 붙음
+  - 각각의 메서드는 Hook이라 불림
+  - 함수 컴포넌트 내부에서만 호출 가능
+  - 조건문 또는 반복문에서는 호출 불가
+  - 커스텀 훅 만들 수 있음
