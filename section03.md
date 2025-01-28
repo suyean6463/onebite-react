@@ -228,3 +228,7 @@ useEffect(function(){
 ```
  - useEffect 콜백함수 내에서 리턴으로 또 새로운 함수를 반환하는 함수를 클린업, 정리함수라고 함
  - 종료가 되는 시점에 정리함수를 반환
+
+## useReducer
+> 컴포넌트 내부에서 새로운 State를 생성하는 React Hooks, 모든 useState는 useReducer로 대체 가능<br>
+상태 관리 코드를 컴포넌트 외부로 분리 가능
