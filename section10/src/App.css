@@ -1,0 +1,27 @@
+body{margin:0;padding:0;background-color:#0A73DC}
+#root{position:fixed;top:0;bottom:0;left:0;right:0}
+.App{display:flex;flex-direction:column;gap:10px;position:relative;top:50%;left:50%;width:500px;padding:50px 20px;border-radius:8px;background-color:#fff;box-sizing:border-box;transform:translate(-50%,-50%)}
+.App::before{position:absolute;top:-25px;left:20px;right:20px;height:59px;background:url(./assets/spring.png) no-repeat;background-size:100%;content:''}
+
+/* header */
+.header h3{margin:0}
+.header h1{margin:8px 0 20px;padding-bottom:10px;border-bottom:1px dashed #D4D4D4;color:#0A73DC}
+
+/* editor */
+.editor{display:flex;gap:10px}
+.editor input{flex:1;padding:15px;border:1px solid #D4D4D4;border-radius:5px}
+.editor input:focus{border-color:#0A73DC;outline:none}
+.editor button{width:60px;border:none;border-radius:5px;font-weight:500;font-size:15px;color:#fff;background-color:#0A73DC;cursor:pointer}
+
+/* list */
+.list>input{width:100%;padding:15px 0;border:none;border-bottom:1px solid #D4D4D4}
+.list>input:focus{border-bottom-color:#0A73DC;outline:none}
+
+/* todoItem */
+.list_todo{margin:0;padding:10px 0}
+.list_todo li{display:flex;align-items:center;gap:20px;padding:10px 0;}
+.list_todo li+li{border-top:1px dashed #D4D4D4}
+.list_todo input{width:20px}
+.list_todo .txt_todo{flex:1}
+.list_todo .txt_date{font-size:14px;line-height:16px;color:#696969}
+.list_todo button{padding:7px 12px;border:none;border-radius:5px;font-size:14px;color:#696969;cursor:pointer}
