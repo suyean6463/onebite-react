@@ -1,0 +1,7 @@
+.Editor{padding:20px}
+.Editor > section+section{margin-top:50px}
+.Editor > section> h4{margin:0;font-size:18px}
+.Editor > section> input, .Editor > section> textarea{margin-top:10px;padding:10px 20px;border:none;border-radius:5px;background-color:#ECECEC}
+.Editor > section> textarea{width:100%;min-height:200px;padding:20px;font-size:14px;line-height:18px;resize:vertical;box-sizing:border-box}
+.emotion_list_wrapper{display:flex;justify-content:space-around;gap:2%;margin-top:10px}
+.Editor .button_section{display:flex;justify-content:space-between}
